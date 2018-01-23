@@ -48,7 +48,8 @@ var $ = function(sel) {
         addClass: addClass,
         removeClass: removeClass,
         on: on,
-        html: html
+        html: html,
+        toggleClass: toggleClass
     }
 
     return publicAPI;
